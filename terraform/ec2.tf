@@ -97,8 +97,8 @@ resource  "aws_instance" "my_instance" {
 
     for_each = tomap({
         nikhil_automate_micro = "t2.micro"
-        nikhil_automate_medium = "t2.small"
-        nikhil_automate_medium = "t2.medium"
+        nikhil_automate_samll = "t2.small"
+        # nikhil_automate_medium = "t2.medium"
     })
     
 
